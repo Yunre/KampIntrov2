@@ -7,10 +7,14 @@ namespace OOP3
     {
         static void Main(string[] args)
         {
-            IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
-            IKrediManager tasitKrediManager = new TasitKrediManager ();
-            IKrediManager konutKrediManager = new KonutKrediManager();
 
+            IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
+            //ihtiyacKrediManager.Hesapla();
+            IKrediManager tasitKrediManager = new TasitKrediManager ();
+            //tasitKrediManager.Hesapla();
+            IKrediManager konutKrediManager = new KonutKrediManager();
+            //konutKrediManager.Hesapla();
+ 
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new FileLoggerService();
 

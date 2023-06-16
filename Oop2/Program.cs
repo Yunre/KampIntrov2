@@ -43,6 +43,8 @@ namespace Oop2
             musteriManager.Ekle(musteri1);
             musteriManager.Ekle(musteri2);
 
+
+
         }
     }
 }
